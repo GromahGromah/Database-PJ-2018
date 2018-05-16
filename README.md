@@ -1,18 +1,14 @@
 ## 使用说明：
 
-1、demo/Gromah OJ.exe 是可执行文件。
+demo/Gromah OJ.exe 是可执行文件。
 
-2、由于是用 Win8 下的 Qt 做的，屏幕最大分辨率就是 1366×768，所以用之前请先把屏幕分辨率调成 1366×768，不然界面会十分鬼畜。
+由于是用 Win8 下的 Qt 做的，屏幕最大分辨率就是 1366×768，所以用之前请先把屏幕分辨率调成 1366×768，不然界面会十分鬼畜。
 
-3、Host 配置可以是 Gromah 的服务器（Host：???，User：root，Password：gromah），得和我在同一个局域网里才能连我。。
+Host 配置可以是 Gromah 的服务器（Host：???，User：root，Password：gromah），得和我在同一个局域网里才能连我。。也可以是大家本地的服务器 localhost，但是可能要设置一下访问权限：
 
-   也可以是大家本地的服务器 localhost，但是可能要设置一下访问权限，比如以下操作：
-   
-   1) GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' IDENTIFIED BY 'xxx' WITH GRANT OPTION;
-   
-   localhost 可以使用 root 用户，密码为 xxx 访问所有的数据库
-   
-   2) flush privileges;
+1.GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' IDENTIFIED BY 'xxx' WITH GRANT OPTION;（localhost 可以使用 root 用户，密码为 xxx 访问所有的数据库）
+   
+2.flush privileges;
 
 ## 配置说明：
 
