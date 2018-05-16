@@ -1,0 +1,13 @@
+INPUT(
+./debug\main.o
+./debug\mainwindow.o
+./debug\db.o
+./debug\session.o
+./debug\login.o
+./debug\problems.o
+./debug\editproblem.o
+./debug\moc_mainwindow.o
+./debug\moc_login.o
+./debug\moc_problems.o
+./debug\moc_editproblem.o
+);

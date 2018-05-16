@@ -1,0 +1,13 @@
+INPUT(
+./release\main.o
+./release\mainwindow.o
+./release\db.o
+./release\session.o
+./release\login.o
+./release\problems.o
+./release\editproblem.o
+./release\moc_mainwindow.o
+./release\moc_login.o
+./release\moc_problems.o
+./release\moc_editproblem.o
+);
