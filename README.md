@@ -7,7 +7,7 @@ demo/Gromah OJ.exe 是可执行文件。
 Host 配置可以是 Gromah 的服务器（Host：???，User：root，Password：gromah），得和我在同一个局域网里才能连我。。也可以是大家本地的服务器 localhost，但是可能要设置一下访问权限：
 
 1.GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' IDENTIFIED BY 'xxx' WITH GRANT OPTION;（localhost 可以使用 root 用户，密码为 xxx 访问所有的数据库）
-   
+
 2.flush privileges;
 
 ## 配置说明：
@@ -27,8 +27,6 @@ Host 配置可以是 Gromah 的服务器（Host：???，User：root，Password�
 此外因为是用的 mySQL 的 VARCHAR 来存东西，所以输入什么东西的时候不要带半角单引号 ' ，不然会我的程序会语法错误。。
 
 其他的应该都可以自己很快摸索出来。
-
-
 
 ## 其他想说的：
 
