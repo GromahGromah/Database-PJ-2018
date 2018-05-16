@@ -1,8 +1,8 @@
 ## 使用说明：
 
-demo/Gromah OJ.exe 是可执行文件。
+demo/Gromah OJ.exe 是可执行文件。然后虽然名字是 OJ，但实际上能测的只是简单的提交答案题（毕竟只做了三四天）。
 
-由于是用 Win8 下的 Qt 做的，屏幕最大分辨率就是 1366×768，所以用之前请先把屏幕分辨率调成 1366×768，不然界面会十分鬼畜。
+由于是用 Win8 下的 Qt 做的，屏幕最大分辨率就是 1366×768，然后我又比较偷懒基本没用 layout，所以用之前请先把屏幕分辨率调成 1366×768，不然界面会十分鬼畜。
 
 Host 配置可以是 Gromah 的服务器（Host：???，User：root，Password：gromah），得和我在同一个局域网里才能连我。。也可以是大家本地的服务器 localhost，但是可能要设置一下访问权限（进入 mysql 终端之后 use mysql; 然后输入以下两个指令）：
 
@@ -10,7 +10,7 @@ Host 配置可以是 Gromah 的服务器（Host：???，User：root，Password�
 
 2.flush privileges;
 
-弄完之后重启一波 mysql 服务应该就好了。
+弄完之后重启一波 mysql 服务应该就可以用这个 .exe 去连 localhost 下的 mysql 服务了。
 
 ## 配置说明：
 
@@ -22,7 +22,7 @@ Host 配置可以是 Gromah 的服务器（Host：???，User：root，Password�
 
 每个用户还可以对自己的 Status 点击“Show Answer”查看自己提交过的答案，然后还可以在 RankList 点击“Orz”来对其他用户进行 Orz。
 
-两个关于 Orz 的设定：登陆了的用户不能 Orz 自己，当然万能的管理员 admin 除外；Orz 次数统计上限是 233。
+两个关于 Orz 的设定：登陆了的用户不能 Orz 自己，当然管理员爸爸 admin 除外；Orz 次数统计上限是 233。
 
 然后一个要注意的就是：改题如果改了答案，之前的提交是并不会重测的。
 
