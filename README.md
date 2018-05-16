@@ -4,11 +4,13 @@ demo/Gromah OJ.exe 是可执行文件。
 
 由于是用 Win8 下的 Qt 做的，屏幕最大分辨率就是 1366×768，所以用之前请先把屏幕分辨率调成 1366×768，不然界面会十分鬼畜。
 
-Host 配置可以是 Gromah 的服务器（Host：???，User：root，Password：gromah），得和我在同一个局域网里才能连我。。也可以是大家本地的服务器 localhost，但是可能要设置一下访问权限：
+Host 配置可以是 Gromah 的服务器（Host：???，User：root，Password：gromah），得和我在同一个局域网里才能连我。。也可以是大家本地的服务器 localhost，但是可能要设置一下访问权限（进入 mysql 终端之后 use mysql; 然后输入以下两个指令）：
 
 1.GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' IDENTIFIED BY 'xxx' WITH GRANT OPTION;（localhost 可以使用 root 用户，密码为 xxx 访问所有的数据库）
 
 2.flush privileges;
+
+弄完之后重启一波 mysql 服务应该就好了。
 
 ## 配置说明：
 
